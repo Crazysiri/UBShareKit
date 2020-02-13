@@ -30,8 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'UBShareKit/Classes/**/*'
-  
+  s.source_files = 'UBShareKit/Classes/**'
+   s.subspec 'core' do |core|
+    core.source_files = 'UBShareKit/Classes/core/**/*'
+   end
+    s.subspec 'UI' do |core|
+     core.source_files = 'UBShareKit/Classes/UI/**/*'
+    end
   # s.resource_bundles = {
   #   'UBShareKit' => ['UBShareKit/Assets/*.png']
   # }
