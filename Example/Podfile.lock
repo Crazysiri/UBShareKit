@@ -1,0 +1,20 @@
+PODS:
+  - UBShareKit (0.1.0):
+    - UBShareKit/core (= 0.1.0)
+    - UBShareKit/DefaultUI (= 0.1.0)
+  - UBShareKit/core (0.1.0)
+  - UBShareKit/DefaultUI (0.1.0)
+
+DEPENDENCIES:
+  - UBShareKit (from `../`)
+
+EXTERNAL SOURCES:
+  UBShareKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UBShareKit: f2901d6ea57e48b48003ddef5bfefae003f2a89f
+
+PODFILE CHECKSUM: 94516999b3dea635e1a6bba2f2a13de136b0cfab
+
+COCOAPODS: 1.7.5

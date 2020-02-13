@@ -1,0 +1,6 @@
+framework module UBShareKit {
+  umbrella header "UBShareKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

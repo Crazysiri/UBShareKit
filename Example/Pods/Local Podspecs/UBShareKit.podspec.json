@@ -1,0 +1,32 @@
+{
+  "name": "UBShareKit",
+  "version": "0.1.0",
+  "summary": "A short description of UBShareKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/crazysiri/UBShareKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "crazysiri": "youbo@xiandanjia.com"
+  },
+  "source": {
+    "git": "https://github.com/crazysiri/UBShareKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UBShareKit/Classes/**",
+  "subspecs": [
+    {
+      "name": "core",
+      "source_files": "UBShareKit/Classes/core/**/*"
+    },
+    {
+      "name": "DefaultUI",
+      "source_files": "UBShareKit/Classes/UI/**/*"
+    }
+  ]
+}
