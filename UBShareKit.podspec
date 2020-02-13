@@ -31,6 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'UBShareKit/Classes/**'
+  s.subspec 'kit' do |core|
+   core.source_files = 'UBShareKit/Classes/kit/**/*'
+  end
    s.subspec 'core' do |core|
     core.source_files = 'UBShareKit/Classes/core/**/*'
    end
@@ -41,6 +44,10 @@ TODO: Add long description of the pod here.
   #   'UBShareKit' => ['UBShareKit/Assets/*.png']
   # }
 
+#OTHER_LDFLAGS
+#s.xcconfig = {'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/UBShareActivities/UBShareActivities/Classes/Wechat"}
+#s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' => "${PODS_CONFIGURATION_BUILD_DIR}/UBShareActivities/UBShareActivities.framework/Headers"}
+s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' => "${PODS_CONFIGURATION_BUILD_DIR}/UBShareActivities"}
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

@@ -1,0 +1,6 @@
+framework module UBShareActivities {
+  umbrella header "UBShareActivities-umbrella.h"
+
+  export *
+  module * { export * }
+}

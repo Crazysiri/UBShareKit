@@ -19,7 +19,14 @@
     "ios": "8.0"
   },
   "source_files": "UBShareKit/Classes/**",
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "${PODS_CONFIGURATION_BUILD_DIR}/UBShareActivities"
+  },
   "subspecs": [
+    {
+      "name": "kit",
+      "source_files": "UBShareKit/Classes/kit/**/*"
+    },
     {
       "name": "core",
       "source_files": "UBShareKit/Classes/core/**/*"

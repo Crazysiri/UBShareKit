@@ -8,10 +8,24 @@
 
 #import "UBAppDelegate.h"
 
+#import <UBShareResources.h>
+
+#import <UBWechat.h>
+
+
 @implementation UBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [UBWechat setConfig:@{WECHAT_KEY_APP_ID:@"wxfa00b02b1f35b14c"}];
+    
+    [UBShareResources registerShareChannel:@"wechat_mp"
+                                   type:kShareToWechatProgram
+                                  title:@"微信好友"
+                         imageDictArray:@[
+                                          @{@"normal":@"微信好友"},
+                                          ]];
+    
     // Override point for customization after application launch.
     return YES;
 }
