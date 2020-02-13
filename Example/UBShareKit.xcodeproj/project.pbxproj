@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		DAC5235E23F5268C00E8639A /* Getter.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC5235D23F5268C00E8639A /* Getter.m */; };
 		FE0B4D007986B5D692A167B4 /* Pods_UBShareKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6581F7947EEEA3E0C43BAF52 /* Pods_UBShareKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		903432F09AE2805CF2EE1DEC /* Pods-UBShareKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBShareKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UBShareKit_Tests/Pods-UBShareKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D457395A8B1F45FE9153E0DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DAC5235C23F5268C00E8639A /* Getter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Getter.h; sourceTree = "<group>"; };
+		DAC5235D23F5268C00E8639A /* Getter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Getter.m; sourceTree = "<group>"; };
 		EE50480113E223D2AF1636F0 /* UBShareKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UBShareKit.podspec; path = ../UBShareKit.podspec; sourceTree = "<group>"; };
 		F7F07E1F15D3426345F1969B /* Pods-UBShareKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBShareKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-UBShareKit_Tests/Pods-UBShareKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +154,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				DAC5235C23F5268C00E8639A /* Getter.h */,
+				DAC5235D23F5268C00E8639A /* Getter.m */,
 			);
 			name = "Example for UBShareKit";
 			path = UBShareKit;
@@ -368,6 +373,7 @@
 			files = (
 				6003F59E195388D20070C39A /* UBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* UBViewController.m in Sources */,
+				DAC5235E23F5268C00E8639A /* Getter.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

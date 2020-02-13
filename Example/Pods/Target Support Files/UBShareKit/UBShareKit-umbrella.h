@@ -10,9 +10,6 @@
 #endif
 #endif
 
-#import "XDJShareDatasource.h"
-#import "XDJShareDelegate.h"
-#import "XDJShareKit.h"
 #import "UBDefaultShareView.h"
 #import "UBShareButton.h"
 #import "UIView+imageCorner.h"
@@ -24,6 +21,7 @@
 #import "UBWeakQueue.h"
 #import "UBShareActivitiesControl.h"
 #import "UBShareModel.h"
+#import "XDJShareKit.h"
 
 FOUNDATION_EXPORT double UBShareKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char UBShareKitVersionString[];

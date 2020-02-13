@@ -8,6 +8,8 @@
 
 @import UIKit;
 
+#import "Getter.h"
+
 @interface UBAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

@@ -19,9 +19,9 @@
 {
     [UBWechat setConfig:@{WECHAT_KEY_APP_ID:@"wxfa00b02b1f35b14c"}];
     
-    [UBShareResources registerShareChannel:@"wechat_mp"
-                                   type:kShareToWechatProgram
-                                  title:@"微信好友"
+    [UBShareResources registerShareChannel:CHANNEL_TIMELINE
+                                   type:kShareToWechatTimeLine
+                                  title:@"微信朋友圈"
                          imageDictArray:@[
                                           @{@"normal":@"微信好友"},
                                           ]];
