@@ -43,10 +43,11 @@ TODO: Add long description of the pod here.
   #   'UBShareKit' => ['UBShareKit/Assets/*.png']
   # }
 
-#OTHER_LDFLAGS
-#s.xcconfig = {'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/UBShareActivities/UBShareActivities/Classes/Wechat"}
-#s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' => "${PODS_CONFIGURATION_BUILD_DIR}/UBShareActivities/UBShareActivities.framework/Headers"}
-s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' => "${PODS_CONFIGURATION_BUILD_DIR}/UBShareActivities/**/*"}
+s.pod_target_xcconfig = {
+    'FRAMEWORK_SEARCH_PATHS' => "${PODS_CONFIGURATION_BUILD_DIR}/UBShareActivities/",
+    'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
+    'OTHER_LDFLAGS' => "-framework UBShareActivities",
+}
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

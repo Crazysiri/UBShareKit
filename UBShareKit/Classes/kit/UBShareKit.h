@@ -19,7 +19,6 @@
 
 @interface UBShareKit : NSObject
 
-
 @property (readonly,weak, nonatomic) UIView <UBShareView> *shareView;
 
 @property (readonly ,nonatomic) UBShareViewController *controller;

@@ -164,6 +164,8 @@
         self.shareBeforeStart(channel, model, ^(id model_new) {
             shareBlock(model_new);
         });
+    } else {
+        shareBlock(model);
     }
 
 }

@@ -22,7 +22,6 @@
     
     UBShareButton *button = [UBShareButton buttonWithType:UIButtonTypeCustom];
     button.channel = CHANNEL_TIMELINE;
-
     completion(@[button],YES,@"成功");
     
 }
