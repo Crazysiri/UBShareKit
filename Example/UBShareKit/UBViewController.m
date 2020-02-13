@@ -8,7 +8,13 @@
 
 #import "UBViewController.h"
 
+#import <UBShareKit.h>
+
+#import "Getter.h"
+
 @interface UBViewController ()
+
+@property (nonatomic,strong) UBShareKit *kit;
 
 @end
 
@@ -17,6 +23,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    Getter *getter = [[Getter alloc] init];
+
+    UBShareKit *kit = [UBShareKit kitWithGetter:getter];
+    self.kit = kit;
+    
+    [kit.controller showInController:self];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

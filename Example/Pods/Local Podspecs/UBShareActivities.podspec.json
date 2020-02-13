@@ -26,6 +26,10 @@
         "WechatOpenSDK": [
 
         ]
+      },
+      "pod_target_xcconfig": {
+        "LIBRARY_SEARCH_PATHS": "$(inherited) $(PODS_ROOT)/WechatOpenSDK/**/*",
+        "OTHER_LDFLAGS": "$(inherited) -undefined dynamic_lookup"
       }
     }
   ]

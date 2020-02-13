@@ -68,7 +68,7 @@
 		D457395A8B1F45FE9153E0DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DAC5235C23F5268C00E8639A /* Getter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Getter.h; sourceTree = "<group>"; };
 		DAC5235D23F5268C00E8639A /* Getter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Getter.m; sourceTree = "<group>"; };
-		EE50480113E223D2AF1636F0 /* UBShareKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UBShareKit.podspec; path = ../UBShareKit.podspec; sourceTree = "<group>"; };
+		EE50480113E223D2AF1636F0 /* UBShareKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UBShareKit.podspec; path = ../UBShareKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F7F07E1F15D3426345F1969B /* Pods-UBShareKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBShareKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-UBShareKit_Tests/Pods-UBShareKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

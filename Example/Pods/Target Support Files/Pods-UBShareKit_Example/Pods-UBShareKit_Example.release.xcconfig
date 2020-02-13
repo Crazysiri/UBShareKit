@@ -1,4 +1,4 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/UBShareActivities" "${PODS_CONFIGURATION_BUILD_DIR}/UBShareKit"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/UBShareActivities" "${PODS_CONFIGURATION_BUILD_DIR}/UBShareKit" ${PODS_CONFIGURATION_BUILD_DIR}/UBShareActivities/**/*
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/UBShareActivities/UBShareActivities.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/UBShareKit/UBShareKit.framework/Headers" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/WechatOpenSDK"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'

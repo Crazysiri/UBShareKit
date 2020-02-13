@@ -7,7 +7,7 @@
 
 //和请求有关，获取数据之前，获取数据之后
 - (void)beforeGetShareButtons;
-- (void)afterGetShareButtons;
+- (void)afterGetShareButtons:(BOOL)success message:(NSString *)message;
 
 //分享结果
 - (void)result:(BOOL)success channel:(NSString *)channel message:(NSString *)message;

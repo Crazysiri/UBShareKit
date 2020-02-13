@@ -20,8 +20,8 @@
 #import "UBShareViewControllerDelegate.h"
 #import "UBWeakQueue.h"
 #import "UBShareActivitiesControl.h"
+#import "UBShareKit.h"
 #import "UBShareModel.h"
-#import "XDJShareKit.h"
 
 FOUNDATION_EXPORT double UBShareKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char UBShareKitVersionString[];

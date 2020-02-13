@@ -84,8 +84,8 @@
         weakSelf.buttons = buttons;
         [weakSelf.shareView setupItemsViewWithButtons:buttons itemViewWidth:weakSelf.shareView.bounds.size.width];
 
-        if (weakSelf.delegate && [weakSelf.delegate respondsToSelector:@selector(afterGetShareButtons)]) {
-            [weakSelf.delegate afterGetShareButtons];
+        if (weakSelf.delegate && [weakSelf.delegate respondsToSelector:@selector(afterGetShareButtons:message:)]) {
+            [weakSelf.delegate afterGetShareButtons:success message:msg];
         }
         
     }];

@@ -19,7 +19,7 @@
     "ios": "8.0"
   },
   "xcconfig": {
-    "FRAMEWORK_SEARCH_PATHS": "${PODS_CONFIGURATION_BUILD_DIR}/UBShareActivities"
+    "FRAMEWORK_SEARCH_PATHS": "${PODS_CONFIGURATION_BUILD_DIR}/UBShareActivities/**/*"
   },
   "subspecs": [
     {
