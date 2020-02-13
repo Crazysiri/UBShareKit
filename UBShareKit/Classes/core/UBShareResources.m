@@ -1,8 +1,6 @@
 
 #import "UBShareResources.h"
 
-#import "XDJShareButton.h"
-
 @implementation UBShareResources
 
 + (UBShareResources *)shared {
