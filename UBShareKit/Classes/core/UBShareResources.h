@@ -7,9 +7,9 @@ typedef NS_ENUM(int,kShareType) {
     kShareToWechatTimeLine,
     kShareToWechatProgram, //小程序
     kShareToQQ,
-    kShareToQzone,
+    kShareToQQzone,
+    kShareToQQWeibo,
     kShareToSinaWeibo,
-    kShareToTencentWeibo,
     kShareToContacts, //通讯录
     kShareToFacebook,
     kShareToTwitter,

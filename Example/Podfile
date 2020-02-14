@@ -5,6 +5,8 @@ platform :ios, '8.0'
 target 'UBShareKit_Example' do
   pod 'UBShareKit', :path => '../'
   pod 'UBShareActivities/Wechat',:git => 'https://github.com/Crazysiri/UBShareActivities.git'
+  pod 'UBShareActivities/Weibo',:git => 'https://github.com/Crazysiri/UBShareActivities.git'
+  pod 'UBShareActivities/QQ',:git => 'https://github.com/Crazysiri/UBShareActivities.git'
 
   target 'UBShareKit_Tests' do
     inherit! :search_paths

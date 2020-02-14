@@ -1,6 +1,11 @@
 PODS:
+  - TencentOpenAPI-Unofficial (3.3.5)
+  - UBShareActivities/QQ (0.1.0):
+    - TencentOpenAPI-Unofficial
   - UBShareActivities/Wechat (0.1.0):
     - WechatOpenSDK
+  - UBShareActivities/Weibo (0.1.0):
+    - Weibo_SDK
   - UBShareKit (0.1.0):
     - UBShareKit/core (= 0.1.0)
     - UBShareKit/DefaultUI (= 0.1.0)
@@ -9,14 +14,19 @@ PODS:
   - UBShareKit/DefaultUI (0.1.0)
   - UBShareKit/kit (0.1.0)
   - WechatOpenSDK (1.8.6.2)
+  - Weibo_SDK (3.2.3)
 
 DEPENDENCIES:
+  - UBShareActivities/QQ (from `https://github.com/Crazysiri/UBShareActivities.git`)
   - UBShareActivities/Wechat (from `https://github.com/Crazysiri/UBShareActivities.git`)
+  - UBShareActivities/Weibo (from `https://github.com/Crazysiri/UBShareActivities.git`)
   - UBShareKit (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - TencentOpenAPI-Unofficial
     - WechatOpenSDK
+    - Weibo_SDK
 
 EXTERNAL SOURCES:
   UBShareActivities:
@@ -26,14 +36,16 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   UBShareActivities:
-    :commit: a86cb40533573f96da23fdfd8c9da879c71feee3
+    :commit: fff3f93a3f17cf45cff75f839cae77d3a9d87d98
     :git: https://github.com/Crazysiri/UBShareActivities.git
 
 SPEC CHECKSUMS:
-  UBShareActivities: e75ab212a413f3ffd2eabf9cb4e615599d5e0e36
+  TencentOpenAPI-Unofficial: bb112eb0f173390ea1bb2fd52270a808b0aa0057
+  UBShareActivities: b94648429049051cb2ebd0264812cab86f9553cf
   UBShareKit: bafc2e151e6cd661389b41902e7e88f5c80c697c
   WechatOpenSDK: 8b3ba4239193d1112205c139c94e21934e8f369a
+  Weibo_SDK: 652ca78c2f7147a5de5e75e7cbea89838a81772a
 
-PODFILE CHECKSUM: d06438a1140e7bd978a16e23cd8a554c9f27f3cf
+PODFILE CHECKSUM: 3fc21a6cf3f4c063842bfea091ccf5f59b979f1c
 
 COCOAPODS: 1.7.5

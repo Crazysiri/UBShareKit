@@ -14,6 +14,17 @@
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>® 1998 - 2018 Tencent All Rights Reserved.
+</string>
+			<key>License</key>
+			<string>LGPL</string>
+			<key>Title</key>
+			<string>TencentOpenAPI-Unofficial</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>MIT License
 
 Copyright (c) 2020 Crazysiri
@@ -80,6 +91,16 @@ THE SOFTWARE.
 			<string>Copyright</string>
 			<key>Title</key>
 			<string>WechatOpenSDK</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string></string>
+			<key>License</key>
+			<string>MIT</string>
+			<key>Title</key>
+			<string>Weibo_SDK</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

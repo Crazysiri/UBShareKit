@@ -1,7 +1,8 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/UBShareActivities
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/TencentOpenAPI-Unofficial/sdk" $(inherited) $(PODS_ROOT)/TencentOpenAPI-Unofficial/sdk/
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public"
-LIBRARY_SEARCH_PATHS = $(inherited) $(PODS_ROOT)/WechatOpenSDK/**/*
+LIBRARY_SEARCH_PATHS = $(inherited) $(PODS_ROOT)/WechatOpenSDK/**/* $(inherited) $(PODS_ROOT)/Weibo_SDK/libWeiboSDK/
 OTHER_LDFLAGS = $(inherited) -undefined dynamic_lookup
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

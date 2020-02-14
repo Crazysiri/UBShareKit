@@ -31,6 +31,32 @@
         "LIBRARY_SEARCH_PATHS": "$(inherited) $(PODS_ROOT)/WechatOpenSDK/**/*",
         "OTHER_LDFLAGS": "$(inherited) -undefined dynamic_lookup"
       }
+    },
+    {
+      "name": "Weibo",
+      "source_files": "UBShareActivities/Classes/Weibo",
+      "dependencies": {
+        "Weibo_SDK": [
+
+        ]
+      },
+      "pod_target_xcconfig": {
+        "LIBRARY_SEARCH_PATHS": "$(inherited) $(PODS_ROOT)/Weibo_SDK/libWeiboSDK/",
+        "OTHER_LDFLAGS": "$(inherited) -undefined dynamic_lookup"
+      }
+    },
+    {
+      "name": "QQ",
+      "source_files": "UBShareActivities/Classes/QQ",
+      "dependencies": {
+        "TencentOpenAPI-Unofficial": [
+
+        ]
+      },
+      "pod_target_xcconfig": {
+        "FRAMEWORK_SEARCH_PATHS": "$(inherited) $(PODS_ROOT)/TencentOpenAPI-Unofficial/sdk/",
+        "OTHER_LDFLAGS": "$(inherited) -undefined dynamic_lookup"
+      }
     }
   ]
 }
