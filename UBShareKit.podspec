@@ -37,7 +37,10 @@ TODO: Add long description of the pod here.
     core.source_files = 'UBShareKit/Classes/core/**/*'
    end
     s.subspec 'DefaultUI' do |core|
-     core.source_files = 'UBShareKit/Classes/UI/**/*'
+     core.source_files = 'UBShareKit/Classes/UI/**/*.{h,m}'
+     core.resource_bundles = {
+        'DefaultUI' => ['UBShareKit/Classes/UI/**/*.xib']
+     }
     end
   # s.resource_bundles = {
   #   'UBShareKit' => ['UBShareKit/Assets/*.png']

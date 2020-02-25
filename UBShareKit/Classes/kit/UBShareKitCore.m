@@ -32,8 +32,7 @@
 //use default view
 + (UBShareKit *)kitWithGetter:(UBShareKitDataGetter *)getter {
     UBShareKit *kit = [[UBShareKit alloc] init];
-    
-    NSBundle *bundle = [NSBundle bundleForClass:self];
+    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle bundleForClass:self]URLForResource:@"DefaultUI" withExtension:@"bundle"]];
     UBDefaultShareView *view = [[bundle loadNibNamed:@"UBDefaultShareView" owner:self options:nil]lastObject];
 
     [kit setupWithGetter:getter shareView:view];
