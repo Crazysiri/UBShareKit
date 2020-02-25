@@ -31,6 +31,16 @@
 #define UB_SUPPORT_QQ 0
 #endif
 
+#if __has_include("UBSystemShare.h")
+#define UB_SUPPORT_SYSTEM 1
+#import "UBSystemShare.h"
+#elif __has_include(<UBSystemShare.h>)
+#define UB_SUPPORT_SYSTEM 1
+#import <UBSystemShare.h>
+#else
+#define UB_SUPPORT_SYSTEM 0
+#endif
+
 @implementation UBShareActivitiesControl
 
 + (NSString *)shareCompletionMsg:(BOOL)success {
@@ -41,6 +51,14 @@
 {
 #if UB_SUPPORT_WECHAT
     return [UBWechat handleOpenURL:url];
+#endif
+
+    return NO;
+}
+
++ (BOOL)handleUserActivity:(NSUserActivity *)activity {
+#if UB_SUPPORT_WECHAT
+    return [UBWechat handleUserActivity:activity];
 #endif
 
     return NO;
@@ -119,6 +137,17 @@
                     completion(success,[self shareCompletionMsg:success] );
                 }
             }];
+            break;
+        }
+#endif
+            
+#if UB_SUPPORT_SYSTEM
+        case kShareToCopy:
+        {
+            [UBSystemShare shareToSystemCopyWithText:model.url];
+            if (completion) {
+                completion(YES,@"已复制到剪切板" );
+            }
             break;
         }
 #endif

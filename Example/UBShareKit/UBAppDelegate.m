@@ -25,7 +25,12 @@
                          imageDictArray:@[
                                           @{@"normal":@"微信好友"},
                                           ]];
-    
+    [UBShareResources registerShareChannel:CHANNEL_COPYLINK
+                                   type:kShareToCopy
+                                  title:@"拷贝链接"
+                         imageDictArray:@[
+                                          @{@"normal":@"微信好友"},
+                                          ]];
     // Override point for customization after application launch.
     return YES;
 }

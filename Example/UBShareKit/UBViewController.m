@@ -22,6 +22,8 @@
 
 - (void)viewDidLoad
 {
+    UIActivityViewController *a;
+//    self.view.backgroundColor = [UIColor darkGrayColor];
     [super viewDidLoad];
     
     Getter *getter = [[Getter alloc] init];
@@ -29,7 +31,7 @@
     UBShareKit *kit = [UBShareKit kitWithGetter:getter];
     self.kit = kit;
     
-    [kit.controller showInController:self];
+    [kit show];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

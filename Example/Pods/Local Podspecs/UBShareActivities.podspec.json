@@ -1,6 +1,6 @@
 {
   "name": "UBShareActivities",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of UBShareActivities.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/crazysiri/UBShareActivities",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/crazysiri/UBShareActivities.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -57,6 +57,10 @@
         "FRAMEWORK_SEARCH_PATHS": "$(inherited) $(PODS_ROOT)/TencentOpenAPI-Unofficial/sdk/",
         "OTHER_LDFLAGS": "$(inherited) -undefined dynamic_lookup"
       }
+    },
+    {
+      "name": "System",
+      "source_files": "UBShareActivities/Classes/System"
     }
   ]
 }

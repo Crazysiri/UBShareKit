@@ -106,7 +106,7 @@
         UILabel *label = [[UILabel alloc] init];
         label.textAlignment = NSTextAlignmentCenter;
         label.backgroundColor = [UIColor clearColor];
-        label.textColor = HexRGB_ShareManagerView(0x999999);
+        label.textColor = HexRGB_ShareManagerView(0x000000);
         label.font = [UIFont systemFontOfSize:12.0f];
         label.text = [UBShareResources getTitle:shareButton.channel];
         [label sizeToFit];
@@ -208,7 +208,7 @@ static char AppendViewClickBlockKey;
     
     UILabel *label = [[UILabel alloc] init];
     label.tag = labelTag;
-    label.textColor = HexRGB_ShareManagerView(0x999999);
+    label.textColor = HexRGB_ShareManagerView(0x000000);
     label.font = [UIFont systemFontOfSize:12];
     label.text = title;
     [label sizeToFit];

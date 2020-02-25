@@ -20,16 +20,23 @@
 //获取按钮
 - (void)getShareButtons:(void (^)(NSArray *,BOOL success,NSString *msg))completion {
     
+    
     UBShareButton *button = [UBShareButton buttonWithType:UIButtonTypeCustom];
+    [button setImage:[UIImage imageNamed:[UBShareResources getImage:CHANNEL_TIMELINE key:@"normal"]] forState:UIControlStateNormal];
     button.channel = CHANNEL_TIMELINE;
-    completion(@[button],YES,@"成功");
+    
+    UBShareButton *link = [UBShareButton buttonWithType:UIButtonTypeCustom];
+    [link setImage:[UIImage imageNamed:[UBShareResources getImage:CHANNEL_COPYLINK key:@"normal"]] forState:UIControlStateNormal];
+    link.channel = CHANNEL_COPYLINK;
+    completion(@[button,link],YES,@"成功");
     
 }
 
 //获取分享内容
 - (void)getShareContents:(void(^)(NSDictionary *shareContents))completion {
     UBShareModel *model = [UBShareModel model];
-    completion(@{CHANNEL_TIMELINE:model});
+    UBShareModel *link = [UBShareModel model];
+    completion(@{CHANNEL_TIMELINE:model,CHANNEL_COPYLINK:link});
 }
 
 //分享（一般是点击事件）

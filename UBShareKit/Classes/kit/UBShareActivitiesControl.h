@@ -12,7 +12,7 @@
  * handle url
  */
 + (BOOL)shareControlHandleOpenURL:(NSURL *)url;
-
++ (BOOL)handleUserActivity:(NSUserActivity *)activity;
 
 /*
  * share method

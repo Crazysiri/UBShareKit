@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UBShareKit.h"
 #import "UBDefaultShareView.h"
 #import "UBShareButton.h"
 #import "UIView+imageCorner.h"
@@ -20,7 +21,7 @@
 #import "UBShareViewControllerDelegate.h"
 #import "UBWeakQueue.h"
 #import "UBShareActivitiesControl.h"
-#import "UBShareKit.h"
+#import "UBShareKitCore.h"
 #import "UBShareModel.h"
 
 FOUNDATION_EXPORT double UBShareKitVersionNumber;

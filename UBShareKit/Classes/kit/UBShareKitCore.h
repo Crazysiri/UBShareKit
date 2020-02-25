@@ -23,10 +23,25 @@
 
 @property (readonly ,nonatomic) UBShareViewController *controller;
 
+//如果UBShareKitDataGetter是网络请求 这块可能需要弹窗等待
+@property (copy,nonatomic) void(^beforeGetData)(void);
+//如果UBShareKitDataGetter是网络请求 这块可能需要处理一下返回弹窗
+@property (copy,nonatomic) void(^afterGetData)(BOOL sucess,NSString *message);
+//分享之后的回调
+@property (copy,nonatomic) void(^afterShare)(BOOL sucess,NSString *message);
+
+
 //use default view
 + (UBShareKit *)kitWithGetter:(UBShareKitDataGetter *)getter;
 
 //use custom view
 + (UBShareKit *)kitWithGetter:(UBShareKitDataGetter *)getter shareView:(UIView <UBShareView> *)view;
+
+- (void)show;
+
+
+
++ (BOOL)shareControlHandleOpenURL:(NSURL *)url;
++ (BOOL)handleUserActivity:(NSUserActivity *)activity;
 
 @end

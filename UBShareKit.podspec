@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  #s.source_files = 'UBShareKit/Classes/**'
+  s.source_files = 'UBShareKit/Classes/UBShareKit.h'
   s.subspec 'kit' do |core|
    core.source_files = 'UBShareKit/Classes/kit/**/*'
   end

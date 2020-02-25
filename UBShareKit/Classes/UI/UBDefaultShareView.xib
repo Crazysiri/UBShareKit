@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,13 +22,13 @@
                         </view>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8wj-Ep-yaU">
                             <rect key="frame" x="0.0" y="259" width="375" height="57"/>
-                            <color key="backgroundColor" red="0.1450980392" green="0.1450980392" blue="0.1450980392" alpha="1" colorSpace="deviceRGB"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="57" id="W7W-kU-Ojv"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <state key="normal" title="取消">
-                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
                             <connections>
@@ -73,7 +75,7 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" red="0.1058823529" green="0.10980392160000001" blue="0.1058823529" alpha="0.97999999999999998" colorSpace="deviceRGB"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="8wj-Ep-yaU" firstAttribute="top" secondItem="Rwh-Lo-osY" secondAttribute="bottom" id="3Wj-S0-Jh7"/>
                         <constraint firstItem="mjw-Sh-ldK" firstAttribute="top" secondItem="dvb-z1-JZc" secondAttribute="bottom" id="5eR-Ah-8d1"/>
@@ -110,6 +112,7 @@
                 <outlet property="itemsView" destination="mjw-Sh-ldK" id="GAi-bh-rSd"/>
                 <outlet property="titleLabel" destination="Fjh-ji-Rgk" id="GfM-lY-801"/>
             </connections>
+            <point key="canvasLocation" x="140" y="125"/>
         </view>
     </objects>
 </document>

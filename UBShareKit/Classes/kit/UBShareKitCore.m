@@ -1,11 +1,13 @@
 
-#import "UBShareKit.h"
+#import "UBShareKitCore.h"
 
 #import "UBDefaultShareView.h"
 
 #import "UBShareViewController.h"
 
 #import "UBShareViewControllerDelegate.h"
+
+#import "UBShareActivitiesControl.h"
 
 
 @interface UBShareKit () <UBShareViewControllerDelegate>
@@ -17,7 +19,7 @@
 @implementation UBShareKit
 
 - (void)dealloc {
-    
+    NSLog(@"分享销毁");
 }
 
 - (id)init {
@@ -58,25 +60,38 @@
     _controller = controller;
 }
 
+- (void)show {
+    [self.controller showInController:UIApplication.sharedApplication.delegate.window.rootViewController];
+}
+
 #pragma mark - delegate
 
 //和请求有关，获取数据之前，获取数据之后
 - (void)beforeGetShareButtons {
-//    [MBProgressHUD showPersistentAlert:@"加载中..." inView:weakObjectcontroller.view];
+    if (self.beforeGetData) {
+        self.beforeGetData();
+    }
 }
 
 - (void)afterGetShareButtons:(BOOL)success message:(NSString *)message {
-//    [MBProgressHUD hideHUDForView:weakObjectcontroller.view animated:NO];
-//    if (!success) {
-//        [MBProgressHUD showAlertWithMessage:msg inView:weakObjectcontroller.view complete:^{
-//            [weakObjectcontroller close];
-//        }];
-//    }
+    if (self.afterGetData) {
+        self.afterGetData(success, message);
+    }
+    if (!success) {
+        [self.controller close];
+    }
 }
 
 //分享结果
 - (void)result:(BOOL)success channel:(NSString *)channel message:(NSString *)message {
     
+    if (self.afterShare) {
+        self.afterShare(success, message);
+    }
+    
+    if (success) {
+        [self.controller close];
+    }
 }
 
 //点击返回 回调
@@ -84,4 +99,12 @@
     
 }
 
+
++ (BOOL)shareControlHandleOpenURL:(NSURL *)url {
+    return [UBShareActivitiesControl shareControlHandleOpenURL:url];
+}
+
++ (BOOL)handleUserActivity:(NSUserActivity *)activity {
+    return [UBShareActivitiesControl handleUserActivity:activity];
+}
 @end

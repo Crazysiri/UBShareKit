@@ -10,6 +10,8 @@
 
 #define CHANNEL_TIMELINE @"timeline"
 
+#define CHANNEL_COPYLINK @"link"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Getter : UBShareKitDataGetter
