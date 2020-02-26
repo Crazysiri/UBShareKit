@@ -9,6 +9,7 @@
 
 #import "UBShareActivitiesControl.h"
 
+static UBShareKit *__temporary_shareKit;
 
 @interface UBShareKit () <UBShareViewControllerDelegate>
 
@@ -32,6 +33,7 @@
 //use default view
 + (UBShareKit *)kitWithGetter:(UBShareKitDataGetter *)getter {
     UBShareKit *kit = [[UBShareKit alloc] init];
+    __temporary_shareKit = kit;//这里记录
     NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle bundleForClass:self]URLForResource:@"DefaultUI" withExtension:@"bundle"]];
     UBDefaultShareView *view = [[bundle loadNibNamed:@"UBDefaultShareView" owner:self options:nil]lastObject];
 
@@ -42,6 +44,7 @@
 //use custom view
 + (UBShareKit *)kitWithGetter:(UBShareKitDataGetter *)getter shareView:(UIView <UBShareView> *)view {
     UBShareKit *kit = [[UBShareKit alloc] init];
+    __temporary_shareKit = kit;//这里记录
     [kit setupWithGetter:getter shareView:view];
     return kit;
 }
@@ -95,7 +98,7 @@
 
 //点击返回 回调
 - (void)back {
-    
+    __temporary_shareKit = nil;//这里销毁
 }
 
 

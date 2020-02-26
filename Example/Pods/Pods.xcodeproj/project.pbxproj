@@ -37,58 +37,59 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		020B951792F46F37DD0DB071DC29CFBB /* UBWeakQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C526686D27FCA10004A3C64BD59F01C /* UBWeakQueue.m */; };
-		06FC12EEBF10C791C6B9A9838F3AF58C /* UBShareKitCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 343EE8B1178E4313DA326023BDBEAF4A /* UBShareKitCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AB9FD0B606EC79F1983AAD85D558DF3 /* UBShareKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D76204D37D5D91ADE6B58E9622C998D7 /* UBShareKit-dummy.m */; };
-		0D50FE643AB8D80161BBB3EB0F9F3D26 /* UBShareKitCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3274596F651D337D4314AC16E12884 /* UBShareKitCore.m */; };
+		0E0EE14A72B711CA07F16D023ECB012B /* UBShareKitCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 216E979A2F03494CDB17A426C1E7E01E /* UBShareKitCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		161FB371E873E08A5C20B1A7642A47DC /* Pods-UBShareKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB4A2AB741B49F0500E2AB482B1585 /* Pods-UBShareKit_Tests-dummy.m */; };
-		16D04F18D2379E97D8FD28C121E8274F /* UBShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A709BE0F99F5C4DDC3B97937DC6FC76 /* UBShareModel.m */; };
-		27456EAEE817408B8C286F961C5EED0B /* UBShareButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2359ADDB85E77430C3B245305D7090 /* UBShareButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A995FC0152D30BD973E07363B433CE3 /* DefaultUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A2E4BF061BD29DC36D5E09A52DAB8A0E /* DefaultUI.bundle */; };
+		1D5897687BECEBAD617FEEC3BC6092C5 /* UBShareView.h in Headers */ = {isa = PBXBuildFile; fileRef = 495D86ED40CDFB3D2831560DF4AB377D /* UBShareView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243AE64DA222AB385668818D8BFC6BD3 /* UBShareViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F505BE6FA980AC6DEBDE359C458A4E3 /* UBShareViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A98281929D1286A81AC3C2C5D445647 /* UBShareKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E01BA0DE02C8CA73AF524BD04C7CA833 /* UBShareKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2D9BB860FA35A262577DD0B5FE2A85 /* UIView+imageCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = E7843D2E830DF283132939496AA1AC94 /* UIView+imageCorner.m */; };
 		37D6E0D10EAA74B5772E3F6C4239D1E7 /* UBShareActivities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AF316E0408F1947A971D05BD213A59 /* UBShareActivities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		396662A03E4BA942B9425BCC12506108 /* UBDefaultShareView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB00729951B814119ACEBE4D1C0AAD2F /* UBDefaultShareView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E7FB55A784983F7BE950EFEA3BF2F06 /* UBShareKitDataGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = C47C87FC0834BE3F58E47446547BC944 /* UBShareKitDataGetter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F40F3077B08F15E1EC74E36D8478566 /* UBShareActivities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5A16BEDC19A754E227D43451630EA0 /* UBShareActivities-dummy.m */; };
-		4F398BA25A0760CE993120D0D1D5A181 /* UBShareResources.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0178A02B72B1F8A3FF41CC67C77471 /* UBShareResources.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54F1014081A2876E65F2D9E501FC2588 /* UBShareKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF19E35BAC5CB35F18B00C0AEC0EA4D0 /* UBShareKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B8098ACC3FE319240E5DA333C243FCF /* UBShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D1B936DF840D4801402843BF8C66B6 /* UBShareButton.m */; };
-		66445B999C4A1CB97631AB215C1BE2CD /* UBShareModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CB40F30846710BB6B683D60347D64BF1 /* UBShareModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71A2333B7D0AE48941318DD91A3B9DDB /* UBShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5FC93C9424BCE7AB485F87F00CFED0 /* UBShareViewController.m */; };
+		54AFAB27A73E7376E55709DBEC0C15C1 /* UBShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE73369104CA6AD0125A4D177D80D38D /* UBShareViewController.m */; };
+		5A4FA9D0AE2C9531CE3B7D7961E1F235 /* UBShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7004D3E3913AA691CED832B286DC6B /* UBShareButton.m */; };
+		5CA813A0AC9DCDE6F973073D22A5DAAC /* UBShareActivitiesControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA0AE631537C2134AE497706354411 /* UBShareActivitiesControl.m */; };
+		5D1275069F20C9AFF13582E8E74121EE /* UBShareActivitiesControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D70A6C0A9D6AD3276F1EB0CB1C90C7F /* UBShareActivitiesControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		689382EA047AC7C8C4F8709BFDECE8F1 /* UBShareKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DCA6FC42C9BCC59895B33104A6B4EF /* UBShareKit-dummy.m */; };
 		75FFEB8E81AE6E30022F37E7B6FB4A69 /* UBQQ.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B5A803F8A0A2BB6CDA91679CDDF2BC /* UBQQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		770017F2D0131A80EED525F282CEECF0 /* UBWeakQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3814013416C187329391538A66A9B481 /* UBWeakQueue.m */; };
 		7BA973BB7F31C7AF5633702854E3F534 /* Pods-UBShareKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07C38E3CFD0C73C2C1D0B19563C9A43F /* Pods-UBShareKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CB3F7BB675B2403C63A0EBEC8056427 /* UBShareView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D07E6EA4C659ADA10B405EE328FDDF5 /* UBShareView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8514725969916DFC39500C1A14256951 /* UBShareKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 429F57DCB1790599A7443785420B8CAB /* UBShareKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DDA5A4397BE9633FA8C6A9CC646DBFA /* UBWeakQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C61C78B170F0A18108FB0CC9A6D739D /* UBWeakQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FA061CF13798ED3E56B74FB384A79C8 /* UBShareViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6A0524976142C79194DD3474A9CE82 /* UBShareViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8297CE3679556496CE1A3633180EDBC9 /* UBShareResources.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A57030C7AD366364206D06F042D3F30 /* UBShareResources.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8547EE5D55FCD1F5591D9F29DA77F805 /* UBWechat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5447A34D2D49539FDAB2C0C6FC575C44 /* UBWechat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C8D227FDDF97A49D3DC48B7BBB74854 /* UBWeakQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 61709E8913207E1C070773FA02F4B402 /* UBWeakQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E40388F677D4C032A0FE79A8963F2F0 /* UBShareViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6F91016FDFA1D4F942072FFF813D5C /* UBShareViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C47AB47EAB35DF1A7A426FD4D93BC9C /* UBShareKitDataGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 777BE498BAFD498ECB71D4F00DC77F27 /* UBShareKitDataGetter.m */; };
 		9225748856F9271EF67275A83FB60B15 /* UIImage+maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FCEA041B85A474B957D2AAA29457AB /* UIImage+maker.m */; };
 		9427C1C03143A9CBA8F475A3C3A364BC /* Pods-UBShareKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2876220AB80D4B336D2F281126643074 /* Pods-UBShareKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		942D74FB7D0D49F0CEE88E373C1C4D05 /* UBShareActivitiesControl.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E72678F67C4382415D352ECA7F0F8C /* UBShareActivitiesControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DC23287C162C1F02F4E8BDC4286952C /* UIView+imageCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 32D647E4DD3F1FA7F4F85685744B05AF /* UIView+imageCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EBAFE09BCBFC5C00BB3315D4E38F687 /* UBWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 059B082BECE0A8B4E9EDB8E1FD17BB75 /* UBWeibo.m */; };
 		A3DD565B6E8BB0A881C883D066BCCA87 /* UBWechat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5AE8B5B703FF1D4DEE349296207FFE /* UBWechat.m */; };
 		A5D53FD04C483164CBF1A1F083F2FF7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A87E3025D99A2D243B39602358C3D088 /* UBSystemShare.m in Sources */ = {isa = PBXBuildFile; fileRef = F18A9A308B1669EA6919EFDF51B290EC /* UBSystemShare.m */; };
 		A8E8EC862449AFDDC7F6B6A77331E877 /* UIImage+maker.h in Headers */ = {isa = PBXBuildFile; fileRef = B094E42C9BA466CC4E88567A9ECB21C6 /* UIImage+maker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC29F42B51CF5D00010CFADBCED839BD /* UBShareModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 25255655D19F803F26E720F2B94B33A8 /* UBShareModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC4C7DDC4D378FA069080A003FD9B26E /* UBWechatPayConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9525FADCE25B8D5EDE1BEF4F882FC91B /* UBWechatPayConfig.m */; };
 		ACA91B0BDBB87D72B9A71FECD5F52051 /* UBWeibo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5E00ACA906CC221307F9C16BF47089 /* UBWeibo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4D37083E64A5B3C89413A90CA1291A6 /* UBDefaultShareView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDE5AC9298B9817E7EA7F535FD65BC4 /* UBDefaultShareView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9D6717BE5290A954053E2DD5BC700A6 /* UBShareActivitiesControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147A22329D8FB9BCF7CF1E6E8F3CB11 /* UBShareActivitiesControl.m */; };
-		BD756D7AF2C5CD3BEC261C37B63AF25D /* UBShareKitDataGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BD664DB90FDF09659936CDB68BD6EBC9 /* UBShareKitDataGetter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C20607F0C90A4899B05E227A2B0728F3 /* UIView+imageCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA3DDA91605914573AEA4DEEA5027D /* UIView+imageCorner.m */; };
-		C21071078A58911AEADA5BD493724019 /* UBShareResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 2774DA408FAF3F9DC217426CAB3B64B4 /* UBShareResources.m */; };
+		ADB6A19FC8DB012D3463A97FBF3F95E6 /* UBDefaultShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BFBCCA238EDDE8897B22E762293504 /* UBDefaultShareView.m */; };
+		AF7DDECAAC0FB87F1920F51A74A4C413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B1AC8FFD84F8E25C0286E6CE0348B08A /* UBShareKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C38ADC5582B4F08FBEFD3A087BF0E740 /* UBShareKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C24C775FCBC61C85038C372AA376F0BA /* UBQQConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0466AAA0926BD9B02BB900DA6D22E91D /* UBQQConfig.m */; };
-		C7F3633AB91B99B8ACE70C43D213BC63 /* UBDefaultShareView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 06BC217DE832A2EE0F283A65894ED969 /* UBDefaultShareView.xib */; };
+		C2EC46DC3A39A85AD4E97CE5CD42C3F9 /* UBShareResources.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF61C74562C88DBF2EC3633A00D1FB2 /* UBShareResources.m */; };
 		C9586EBC78577CAF716A4512BC9699CB /* UBWeiboConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2416A8E55C0AABDC7E43C78BDEBE0C /* UBWeiboConfig.m */; };
 		D01AEAA0116B5065225BB4F0FC44E343 /* Pods-UBShareKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8ACD5CD203081B53C096DE6EF227E /* Pods-UBShareKit_Example-dummy.m */; };
 		D55C237264177392F26AE734A70C307A /* UBWechatPayConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A374408760D31FD6C9F145F50D456537 /* UBWechatPayConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB3E7FAF0CBDD0CA99817ACCCECEFC05 /* UBShareKitDataGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE02E26F19283622BA5E1FDA3DD1E9FA /* UBShareKitDataGetter.m */; };
-		DFAB31EB2A03800F5D4FC76DC8D4A54E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DC65F28B652B3997C9485C47181ADB53 /* UIView+imageCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = F83F8F6A07EE458586965B6C80CB42DF /* UIView+imageCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1AB4FC7AF9CD3AA268C57D4F295C61B /* UBSystemShare.h in Headers */ = {isa = PBXBuildFile; fileRef = EF42C0A0E80EA59E28DC68BCAD38FFBD /* UBSystemShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E263FB132A6846238F6A8C27BAB4C38A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E58B2C68C68B66AF2EE2295F5258F5B3 /* UBShareViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 64D6CE6152B66C48978979EFC6D74527 /* UBShareViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE89F228FFAEA370D38D8F0F5E94DA52 /* UBShareKitCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5285E9F46E0FDCFCB29D0E849AE87F71 /* UBShareKitCore.m */; };
 		F10FE84AC18BB847F60EC1DA9CD11CDC /* UBQQConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1EC4E84648DE4FADD7F02EB7A1FA29 /* UBQQConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F246D6DE73243250DC93B9657FD9504F /* UBDefaultShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6685C9A09C14FE798C527573D10FDA6A /* UBDefaultShareView.m */; };
 		F26EB25500B696AA3566CC1BD1F52275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F730C93E22A9C255D84B97DD75412B93 /* UBQQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 418780EB70BBF75C2C6558311E3E7ED2 /* UBQQ.m */; };
+		F7A9F29EBAE0BFB908CAF25817AFFBE8 /* UBShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C5EEF73F21DA0143F08981BD50638 /* UBShareModel.m */; };
+		F7EB78DAFEDE23700382FBF4DF09913D /* UBDefaultShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95413037CD39C2EB9782990635A8128C /* UBDefaultShareView.xib */; };
 		FCA5E8165027BCD9315AF02844BE3B8F /* UBWeiboConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 41516970F9E7C8D93E30D072F5875671 /* UBWeiboConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCDC04D64D543924CF0C0FBE94C08D2D /* UBShareButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DCCFBB1531A723C1A0307FF54B914F /* UBShareButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +142,13 @@
 			remoteGlobalIDString = 85675AC83D040C06A6E950E1AA67A9F6;
 			remoteInfo = UBShareKit;
 		};
+		B3882F43DBA8A022224AF0B05A1FE165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B39AD9333B545E19F01A52CDB01975C;
+			remoteInfo = "UBShareKit-DefaultUI";
+		};
 		DD01C4D12EC2C53FCE1C6DED1E5E7FC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -158,96 +166,98 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03D4AAB82BF0E1D4DF1BE0D3C619D2FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		02BFBCCA238EDDE8897B22E762293504 /* UBDefaultShareView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBDefaultShareView.m; path = UBShareKit/Classes/UI/UBDefaultShareView.m; sourceTree = "<group>"; };
 		0466AAA0926BD9B02BB900DA6D22E91D /* UBQQConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBQQConfig.m; path = UBShareActivities/Classes/QQ/UBQQConfig.m; sourceTree = "<group>"; };
 		059B082BECE0A8B4E9EDB8E1FD17BB75 /* UBWeibo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBWeibo.m; path = UBShareActivities/Classes/Weibo/UBWeibo.m; sourceTree = "<group>"; };
 		0652B2FC96842AA6EB29626381367168 /* TencentOpenAPI-Unofficial.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TencentOpenAPI-Unofficial.xcconfig"; sourceTree = "<group>"; };
-		06BC217DE832A2EE0F283A65894ED969 /* UBDefaultShareView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UBDefaultShareView.xib; path = UBShareKit/Classes/UI/UBDefaultShareView.xib; sourceTree = "<group>"; };
 		06FCEA041B85A474B957D2AAA29457AB /* UIImage+maker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+maker.m"; path = "UBShareActivities/Classes/WeChat/UIImage+maker.m"; sourceTree = "<group>"; };
 		07C38E3CFD0C73C2C1D0B19563C9A43F /* Pods-UBShareKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UBShareKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0FAEEF8A5D61A7117EEE2C6B11E775F5 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = sdk/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		16F0A701C9A04C867098A287FBB79083 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1B1964149788BEAE1EA563E23266A895 /* Pods-UBShareKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBShareKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1B6A0524976142C79194DD3474A9CE82 /* UBShareViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareViewController.h; path = UBShareKit/Classes/core/UBShareViewController.h; sourceTree = "<group>"; };
 		1C2416A8E55C0AABDC7E43C78BDEBE0C /* UBWeiboConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBWeiboConfig.m; path = UBShareActivities/Classes/Weibo/UBWeiboConfig.m; sourceTree = "<group>"; };
-		20C1DE4510FE339812F3CBF8444DB2DD /* UBShareKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UBShareKit.xcconfig; sourceTree = "<group>"; };
+		1C7004D3E3913AA691CED832B286DC6B /* UBShareButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBShareButton.m; path = UBShareKit/Classes/UI/UBShareButton.m; sourceTree = "<group>"; };
+		1D70A6C0A9D6AD3276F1EB0CB1C90C7F /* UBShareActivitiesControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareActivitiesControl.h; path = UBShareKit/Classes/kit/UBShareActivitiesControl.h; sourceTree = "<group>"; };
+		216E979A2F03494CDB17A426C1E7E01E /* UBShareKitCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareKitCore.h; path = UBShareKit/Classes/kit/UBShareKitCore.h; sourceTree = "<group>"; };
+		25255655D19F803F26E720F2B94B33A8 /* UBShareModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareModel.h; path = UBShareKit/Classes/kit/UBShareModel.h; sourceTree = "<group>"; };
 		2761C7DED36B370B3DDF23DF1C3E04FA /* UBShareActivities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UBShareActivities-Info.plist"; sourceTree = "<group>"; };
-		2774DA408FAF3F9DC217426CAB3B64B4 /* UBShareResources.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBShareResources.m; path = UBShareKit/Classes/core/UBShareResources.m; sourceTree = "<group>"; };
 		2876220AB80D4B336D2F281126643074 /* Pods-UBShareKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UBShareKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		2DDE5AC9298B9817E7EA7F535FD65BC4 /* UBDefaultShareView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBDefaultShareView.h; path = UBShareKit/Classes/UI/UBDefaultShareView.h; sourceTree = "<group>"; };
+		2A57030C7AD366364206D06F042D3F30 /* UBShareResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareResources.h; path = UBShareKit/Classes/core/UBShareResources.h; sourceTree = "<group>"; };
 		2E6F1C12E59204AFF2B50B84F267C666 /* Pods-UBShareKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UBShareKit_Example.modulemap"; sourceTree = "<group>"; };
 		306D3738A125834431B4281845B7906B /* Pods_UBShareKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UBShareKit_Tests.framework; path = "Pods-UBShareKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32D647E4DD3F1FA7F4F85685744B05AF /* UIView+imageCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+imageCorner.h"; path = "UBShareKit/Classes/UI/UIView+imageCorner.h"; sourceTree = "<group>"; };
-		343EE8B1178E4313DA326023BDBEAF4A /* UBShareKitCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareKitCore.h; path = UBShareKit/Classes/kit/UBShareKitCore.h; sourceTree = "<group>"; };
-		3D07E6EA4C659ADA10B405EE328FDDF5 /* UBShareView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareView.h; path = UBShareKit/Classes/core/UBShareView.h; sourceTree = "<group>"; };
+		3814013416C187329391538A66A9B481 /* UBWeakQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBWeakQueue.m; path = UBShareKit/Classes/core/UBWeakQueue.m; sourceTree = "<group>"; };
 		41516970F9E7C8D93E30D072F5875671 /* UBWeiboConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBWeiboConfig.h; path = UBShareActivities/Classes/Weibo/UBWeiboConfig.h; sourceTree = "<group>"; };
 		418780EB70BBF75C2C6558311E3E7ED2 /* UBQQ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBQQ.m; path = UBShareActivities/Classes/QQ/UBQQ.m; sourceTree = "<group>"; };
-		429F57DCB1790599A7443785420B8CAB /* UBShareKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareKit.h; path = UBShareKit/Classes/UBShareKit.h; sourceTree = "<group>"; };
 		48A2AC032A96B8E0F54DFFB9E066B1DF /* UBShareActivities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UBShareActivities.framework; path = UBShareActivities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CBC0DBF9D9E6198D83BEA3EFFEEB056 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		495D86ED40CDFB3D2831560DF4AB377D /* UBShareView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareView.h; path = UBShareKit/Classes/core/UBShareView.h; sourceTree = "<group>"; };
+		5285E9F46E0FDCFCB29D0E849AE87F71 /* UBShareKitCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBShareKitCore.m; path = UBShareKit/Classes/kit/UBShareKitCore.m; sourceTree = "<group>"; };
 		5447A34D2D49539FDAB2C0C6FC575C44 /* UBWechat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBWechat.h; path = UBShareActivities/Classes/WeChat/UBWechat.h; sourceTree = "<group>"; };
-		5C0178A02B72B1F8A3FF41CC67C77471 /* UBShareResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareResources.h; path = UBShareKit/Classes/core/UBShareResources.h; sourceTree = "<group>"; };
+		5F505BE6FA980AC6DEBDE359C458A4E3 /* UBShareViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareViewControllerDelegate.h; path = UBShareKit/Classes/core/UBShareViewControllerDelegate.h; sourceTree = "<group>"; };
 		5FE8175B31A6EFD718B1A3309AC9A7BF /* WechatOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.xcconfig; sourceTree = "<group>"; };
 		6022487BB4DC7B5420B4ECA784742C6C /* Pods-UBShareKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UBShareKit_Example-resources.sh"; sourceTree = "<group>"; };
-		6147A22329D8FB9BCF7CF1E6E8F3CB11 /* UBShareActivitiesControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBShareActivitiesControl.m; path = UBShareKit/Classes/kit/UBShareActivitiesControl.m; sourceTree = "<group>"; };
-		61709E8913207E1C070773FA02F4B402 /* UBWeakQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBWeakQueue.h; path = UBShareKit/Classes/core/UBWeakQueue.h; sourceTree = "<group>"; };
 		632998DA05493D4CC9BB12654F03E97F /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.6.2/WechatAuthSDK.h; sourceTree = "<group>"; };
-		64D6CE6152B66C48978979EFC6D74527 /* UBShareViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareViewControllerDelegate.h; path = UBShareKit/Classes/core/UBShareViewControllerDelegate.h; sourceTree = "<group>"; };
-		6685C9A09C14FE798C527573D10FDA6A /* UBDefaultShareView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBDefaultShareView.m; path = UBShareKit/Classes/UI/UBDefaultShareView.m; sourceTree = "<group>"; };
+		656E51EA5EEA30BA177E083DC63F5343 /* UBShareKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UBShareKit-Info.plist"; sourceTree = "<group>"; };
 		6A5AE8B5B703FF1D4DEE349296207FFE /* UBWechat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBWechat.m; path = UBShareActivities/Classes/WeChat/UBWechat.m; sourceTree = "<group>"; };
 		6B5A16BEDC19A754E227D43451630EA0 /* UBShareActivities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UBShareActivities-dummy.m"; sourceTree = "<group>"; };
-		6C23B107B985E78E825FE3ED808DE33B /* UBShareKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UBShareKit.modulemap; sourceTree = "<group>"; };
 		6E1B0B513A942BA26700558784A5F26C /* Pods-UBShareKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UBShareKit_Tests.modulemap"; sourceTree = "<group>"; };
 		6EAB4A2AB741B49F0500E2AB482B1585 /* Pods-UBShareKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UBShareKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		7449F8D3431CD250B86DC8B2416E2720 /* Pods_UBShareKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UBShareKit_Example.framework; path = "Pods-UBShareKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		765F7709A7EFE731FA79B6C982A9C664 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.6.2/WXApi.h; sourceTree = "<group>"; };
+		777BE498BAFD498ECB71D4F00DC77F27 /* UBShareKitDataGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBShareKitDataGetter.m; path = UBShareKit/Classes/core/UBShareKitDataGetter.m; sourceTree = "<group>"; };
 		7C28C05AE3D4A376671510344AAEA9D5 /* Pods-UBShareKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBShareKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7D2359ADDB85E77430C3B245305D7090 /* UBShareButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareButton.h; path = UBShareKit/Classes/UI/UBShareButton.h; sourceTree = "<group>"; };
+		7C61C78B170F0A18108FB0CC9A6D739D /* UBWeakQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBWeakQueue.h; path = UBShareKit/Classes/core/UBWeakQueue.h; sourceTree = "<group>"; };
+		7CCA0AE631537C2134AE497706354411 /* UBShareActivitiesControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBShareActivitiesControl.m; path = UBShareKit/Classes/kit/UBShareActivitiesControl.m; sourceTree = "<group>"; };
 		7F5E00ACA906CC221307F9C16BF47089 /* UBWeibo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBWeibo.h; path = UBShareActivities/Classes/Weibo/UBWeibo.h; sourceTree = "<group>"; };
 		8ADE92137DF802594DEC1B6D85A2CB02 /* Pods-UBShareKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UBShareKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8B20F48EA87F7132AC313FAE822EC15F /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
-		8C526686D27FCA10004A3C64BD59F01C /* UBWeakQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBWeakQueue.m; path = UBShareKit/Classes/core/UBWeakQueue.m; sourceTree = "<group>"; };
 		9525FADCE25B8D5EDE1BEF4F882FC91B /* UBWechatPayConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBWechatPayConfig.m; path = UBShareActivities/Classes/WeChat/UBWechatPayConfig.m; sourceTree = "<group>"; };
+		95413037CD39C2EB9782990635A8128C /* UBDefaultShareView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UBDefaultShareView.xib; path = UBShareKit/Classes/UI/UBDefaultShareView.xib; sourceTree = "<group>"; };
+		96DCA6FC42C9BCC59895B33104A6B4EF /* UBShareKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UBShareKit-dummy.m"; sourceTree = "<group>"; };
+		97823B04DC91092DC9E7CFE64101778C /* UBShareKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UBShareKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		997E94F2FC97E4C58879A41CD3A4B608 /* Pods-UBShareKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBShareKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		9A709BE0F99F5C4DDC3B97937DC6FC76 /* UBShareModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBShareModel.m; path = UBShareKit/Classes/kit/UBShareModel.m; sourceTree = "<group>"; };
-		9B3274596F651D337D4314AC16E12884 /* UBShareKitCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBShareKitCore.m; path = UBShareKit/Classes/kit/UBShareKitCore.m; sourceTree = "<group>"; };
 		9D1EC4E84648DE4FADD7F02EB7A1FA29 /* UBQQConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBQQConfig.h; path = UBShareActivities/Classes/QQ/UBQQConfig.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2E4BF061BD29DC36D5E09A52DAB8A0E /* DefaultUI.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DefaultUI.bundle; path = "UBShareKit-DefaultUI.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A374408760D31FD6C9F145F50D456537 /* UBWechatPayConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBWechatPayConfig.h; path = UBShareActivities/Classes/WeChat/UBWechatPayConfig.h; sourceTree = "<group>"; };
+		AB00729951B814119ACEBE4D1C0AAD2F /* UBDefaultShareView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBDefaultShareView.h; path = UBShareKit/Classes/UI/UBDefaultShareView.h; sourceTree = "<group>"; };
 		AF2EE0BBC184B611A8B9D251D459A5DD /* UBShareActivities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UBShareActivities.modulemap; sourceTree = "<group>"; };
 		B094E42C9BA466CC4E88567A9ECB21C6 /* UIImage+maker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+maker.h"; path = "UBShareActivities/Classes/WeChat/UIImage+maker.h"; sourceTree = "<group>"; };
 		B20DF0A3A902E1F30F67AA04F83AFF85 /* Weibo_SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Weibo_SDK.xcconfig; sourceTree = "<group>"; };
-		B7E72678F67C4382415D352ECA7F0F8C /* UBShareActivitiesControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareActivitiesControl.h; path = UBShareKit/Classes/kit/UBShareActivitiesControl.h; sourceTree = "<group>"; };
-		BD664DB90FDF09659936CDB68BD6EBC9 /* UBShareKitDataGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareKitDataGetter.h; path = UBShareKit/Classes/core/UBShareKitDataGetter.h; sourceTree = "<group>"; };
 		BDA50B4BBDC02D0F65A8A77C3004AAA6 /* UBShareActivities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UBShareActivities.xcconfig; sourceTree = "<group>"; };
-		BE5FC93C9424BCE7AB485F87F00CFED0 /* UBShareViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBShareViewController.m; path = UBShareKit/Classes/core/UBShareViewController.m; sourceTree = "<group>"; };
 		BEC04FD096A26B95FE4DECCE7ACB3AD6 /* Pods-UBShareKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UBShareKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BF13A68CD9ECFB461AB22E2CB7C88508 /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
-		C2B0E89B7798EDEDFD44A8A52A8B51AA /* UBShareKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UBShareKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C38ADC5582B4F08FBEFD3A087BF0E740 /* UBShareKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareKit.h; path = UBShareKit/Classes/UBShareKit.h; sourceTree = "<group>"; };
+		C47C87FC0834BE3F58E47446547BC944 /* UBShareKitDataGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareKitDataGetter.h; path = UBShareKit/Classes/core/UBShareKitDataGetter.h; sourceTree = "<group>"; };
+		C4C92646DC3D4483071BE869F76825E6 /* UBShareKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UBShareKit-prefix.pch"; sourceTree = "<group>"; };
 		C4CD6A6EAFF838FB1770AD5A644F856D /* Pods-UBShareKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBShareKit_Example-Info.plist"; sourceTree = "<group>"; };
 		C5AF316E0408F1947A971D05BD213A59 /* UBShareActivities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UBShareActivities-umbrella.h"; sourceTree = "<group>"; };
 		C93E8F4C80768099431634768A2E38AC /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		C9BA4BE1299EB3B3244D5D1B3C58A40C /* ResourceBundle-DefaultUI-UBShareKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DefaultUI-UBShareKit-Info.plist"; sourceTree = "<group>"; };
 		C9D8ACD5CD203081B53C096DE6EF227E /* Pods-UBShareKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UBShareKit_Example-dummy.m"; sourceTree = "<group>"; };
 		CA89C073C67AC53AB8E2D8981F9375AD /* UBShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UBShareKit.framework; path = UBShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB40F30846710BB6B683D60347D64BF1 /* UBShareModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareModel.h; path = UBShareKit/Classes/kit/UBShareModel.h; sourceTree = "<group>"; };
-		D51AE569F0E153C34D161075A7C92025 /* UBShareKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UBShareKit-prefix.pch"; sourceTree = "<group>"; };
-		D76204D37D5D91ADE6B58E9622C998D7 /* UBShareKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UBShareKit-dummy.m"; sourceTree = "<group>"; };
+		CC8BDD08E666F0BC1B437A3C5BD09595 /* UBShareKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UBShareKit.xcconfig; sourceTree = "<group>"; };
+		CD1C5EEF73F21DA0143F08981BD50638 /* UBShareModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBShareModel.m; path = UBShareKit/Classes/kit/UBShareModel.m; sourceTree = "<group>"; };
+		D2AF964D8B8CA8C7E94447D95F301429 /* UBShareKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UBShareKit.modulemap; sourceTree = "<group>"; };
+		D495355540A264162F5B8277A2A7B8A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DBDECD90E174C1DBBD8C243C04BFBFBF /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.6.2/WXApiObject.h; sourceTree = "<group>"; };
 		DEF22E182EC7F25046A83D93EB4012D3 /* Pods-UBShareKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UBShareKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DF19E35BAC5CB35F18B00C0AEC0EA4D0 /* UBShareKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UBShareKit-umbrella.h"; sourceTree = "<group>"; };
 		DF7FED72C5C3542C84555C7727AF8296 /* Pods-UBShareKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBShareKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E01BA0DE02C8CA73AF524BD04C7CA833 /* UBShareKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UBShareKit-umbrella.h"; sourceTree = "<group>"; };
 		E0B5A803F8A0A2BB6CDA91679CDDF2BC /* UBQQ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBQQ.h; path = UBShareActivities/Classes/QQ/UBQQ.h; sourceTree = "<group>"; };
-		E1D1B936DF840D4801402843BF8C66B6 /* UBShareButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBShareButton.m; path = UBShareKit/Classes/UI/UBShareButton.m; sourceTree = "<group>"; };
+		E4DCCFBB1531A723C1A0307FF54B914F /* UBShareButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareButton.h; path = UBShareKit/Classes/UI/UBShareButton.h; sourceTree = "<group>"; };
 		E532C1E79C15CB7D0215F00C47A34449 /* Pods-UBShareKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBShareKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E7843D2E830DF283132939496AA1AC94 /* UIView+imageCorner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+imageCorner.m"; path = "UBShareKit/Classes/UI/UIView+imageCorner.m"; sourceTree = "<group>"; };
 		E78FEB6F6EF07E92AFAD870C3AB1AC8D /* Pods-UBShareKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBShareKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EAF61C74562C88DBF2EC3633A00D1FB2 /* UBShareResources.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBShareResources.m; path = UBShareKit/Classes/core/UBShareResources.m; sourceTree = "<group>"; };
 		EC86EB56348AAE844648A4249D378466 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
 		EC9E41CB92E037C2D7F413D55DAE08E4 /* UBShareActivities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UBShareActivities-prefix.pch"; sourceTree = "<group>"; };
-		ED8C8B6136D78388A58074343D9B7834 /* UBShareKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UBShareKit-Info.plist"; sourceTree = "<group>"; };
-		EE02E26F19283622BA5E1FDA3DD1E9FA /* UBShareKitDataGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBShareKitDataGetter.m; path = UBShareKit/Classes/core/UBShareKitDataGetter.m; sourceTree = "<group>"; };
 		EF42C0A0E80EA59E28DC68BCAD38FFBD /* UBSystemShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBSystemShare.h; path = UBShareActivities/Classes/System/UBSystemShare.h; sourceTree = "<group>"; };
 		F18A9A308B1669EA6919EFDF51B290EC /* UBSystemShare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBSystemShare.m; path = UBShareActivities/Classes/System/UBSystemShare.m; sourceTree = "<group>"; };
-		F2DA3DDA91605914573AEA4DEEA5027D /* UIView+imageCorner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+imageCorner.m"; path = "UBShareKit/Classes/UI/UIView+imageCorner.m"; sourceTree = "<group>"; };
 		F5A952D5D00F3529F36B1DF69248B1A1 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.6.2/libWeChatSDK.a; sourceTree = "<group>"; };
-		FE6F91016FDFA1D4F942072FFF813D5C /* UBShareViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBShareViewController.h; path = UBShareKit/Classes/core/UBShareViewController.h; sourceTree = "<group>"; };
+		F83F8F6A07EE458586965B6C80CB42DF /* UIView+imageCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+imageCorner.h"; path = "UBShareKit/Classes/UI/UIView+imageCorner.h"; sourceTree = "<group>"; };
+		FE73369104CA6AD0125A4D177D80D38D /* UBShareViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBShareViewController.m; path = UBShareKit/Classes/core/UBShareViewController.m; sourceTree = "<group>"; };
 		FEED32469AE5A58B633A279F3EB6CC69 /* Pods-UBShareKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBShareKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -268,11 +278,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76DBF839278277FD0259CD024E0CF5C5 /* Frameworks */ = {
+		3B3340CE4193DCA8778F854EACCFEECC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFAB31EB2A03800F5D4FC76DC8D4A54E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A035E40FF284C15250C65C43DC2F4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7DDECAAC0FB87F1920F51A74A4C413 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,25 +304,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		059740AF8BA2E48DBBA945A2AEB960A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9BA4BE1299EB3B3244D5D1B3C58A40C /* ResourceBundle-DefaultUI-UBShareKit-Info.plist */,
+				D2AF964D8B8CA8C7E94447D95F301429 /* UBShareKit.modulemap */,
+				CC8BDD08E666F0BC1B437A3C5BD09595 /* UBShareKit.xcconfig */,
+				96DCA6FC42C9BCC59895B33104A6B4EF /* UBShareKit-dummy.m */,
+				656E51EA5EEA30BA177E083DC63F5343 /* UBShareKit-Info.plist */,
+				C4C92646DC3D4483071BE869F76825E6 /* UBShareKit-prefix.pch */,
+				E01BA0DE02C8CA73AF524BD04C7CA833 /* UBShareKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UBShareKit";
+			sourceTree = "<group>";
+		};
 		1157C732EF21C9654A157FD4F0F59C1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				C93E8F4C80768099431634768A2E38AC /* libWeiboSDK.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1467C352B9D4A063848AA58E77E06FD7 /* kit */ = {
-			isa = PBXGroup;
-			children = (
-				B7E72678F67C4382415D352ECA7F0F8C /* UBShareActivitiesControl.h */,
-				6147A22329D8FB9BCF7CF1E6E8F3CB11 /* UBShareActivitiesControl.m */,
-				343EE8B1178E4313DA326023BDBEAF4A /* UBShareKitCore.h */,
-				9B3274596F651D337D4314AC16E12884 /* UBShareKitCore.m */,
-				CB40F30846710BB6B683D60347D64BF1 /* UBShareModel.h */,
-				9A709BE0F99F5C4DDC3B97937DC6FC76 /* UBShareModel.m */,
-			);
-			name = kit;
 			sourceTree = "<group>";
 		};
 		14C6B99CAC35D0121BEB2823C1099BA4 /* Resources */ = {
@@ -316,20 +335,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		17E676BDE0974A52D17852EC65110EFD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6C23B107B985E78E825FE3ED808DE33B /* UBShareKit.modulemap */,
-				20C1DE4510FE339812F3CBF8444DB2DD /* UBShareKit.xcconfig */,
-				D76204D37D5D91ADE6B58E9622C998D7 /* UBShareKit-dummy.m */,
-				ED8C8B6136D78388A58074343D9B7834 /* UBShareKit-Info.plist */,
-				D51AE569F0E153C34D161075A7C92025 /* UBShareKit-prefix.pch */,
-				DF19E35BAC5CB35F18B00C0AEC0EA4D0 /* UBShareKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/UBShareKit";
-			sourceTree = "<group>";
-		};
 		1E8017062329D852A495E2200ED7D003 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +342,37 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TencentOpenAPI-Unofficial";
+			sourceTree = "<group>";
+		};
+		1E81711073E4FE142A4BFAF2B6C60828 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				C47C87FC0834BE3F58E47446547BC944 /* UBShareKitDataGetter.h */,
+				777BE498BAFD498ECB71D4F00DC77F27 /* UBShareKitDataGetter.m */,
+				2A57030C7AD366364206D06F042D3F30 /* UBShareResources.h */,
+				EAF61C74562C88DBF2EC3633A00D1FB2 /* UBShareResources.m */,
+				495D86ED40CDFB3D2831560DF4AB377D /* UBShareView.h */,
+				1B6A0524976142C79194DD3474A9CE82 /* UBShareViewController.h */,
+				FE73369104CA6AD0125A4D177D80D38D /* UBShareViewController.m */,
+				5F505BE6FA980AC6DEBDE359C458A4E3 /* UBShareViewControllerDelegate.h */,
+				7C61C78B170F0A18108FB0CC9A6D739D /* UBWeakQueue.h */,
+				3814013416C187329391538A66A9B481 /* UBWeakQueue.m */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		330E1F3C8D51119A50128A66A39F2D08 /* DefaultUI */ = {
+			isa = PBXGroup;
+			children = (
+				AB00729951B814119ACEBE4D1C0AAD2F /* UBDefaultShareView.h */,
+				02BFBCCA238EDDE8897B22E762293504 /* UBDefaultShareView.m */,
+				E4DCCFBB1531A723C1A0307FF54B914F /* UBShareButton.h */,
+				1C7004D3E3913AA691CED832B286DC6B /* UBShareButton.m */,
+				F83F8F6A07EE458586965B6C80CB42DF /* UIView+imageCorner.h */,
+				E7843D2E830DF283132939496AA1AC94 /* UIView+imageCorner.m */,
+				93F16F7143E90E4B0A8D456D8DCF21F0 /* Resources */,
+			);
+			name = DefaultUI;
 			sourceTree = "<group>";
 		};
 		33B5EDE6CFD2B450C0C5B09F18A4F4D3 /* Weibo */ = {
@@ -350,31 +386,10 @@
 			name = Weibo;
 			sourceTree = "<group>";
 		};
-		45CB8F3ACAB7242D7930410CCE928637 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7449F8D3431CD250B86DC8B2416E2720 /* Pods_UBShareKit_Example.framework */,
-				306D3738A125834431B4281845B7906B /* Pods_UBShareKit_Tests.framework */,
-				48A2AC032A96B8E0F54DFFB9E066B1DF /* UBShareActivities.framework */,
-				CA89C073C67AC53AB8E2D8981F9375AD /* UBShareKit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4694DD3DC3C8561420F92EE4AEDFCE3C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4CBC0DBF9D9E6198D83BEA3EFFEEB056 /* LICENSE */,
-				03D4AAB82BF0E1D4DF1BE0D3C619D2FF /* README.md */,
-				C2B0E89B7798EDEDFD44A8A52A8B51AA /* UBShareKit.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		4963A30D5FA778693394203E3905E2F1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ADC1D67DC3E1858813A0DABC4B9A9B29 /* UBShareKit */,
+				BFD510C616F813C9CA25B2C5A3DB2A56 /* UBShareKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -411,35 +426,12 @@
 			path = WechatOpenSDK;
 			sourceTree = "<group>";
 		};
-		89C0BA240568D76A6581D75D6A9C3681 /* core */ = {
+		93F16F7143E90E4B0A8D456D8DCF21F0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BD664DB90FDF09659936CDB68BD6EBC9 /* UBShareKitDataGetter.h */,
-				EE02E26F19283622BA5E1FDA3DD1E9FA /* UBShareKitDataGetter.m */,
-				5C0178A02B72B1F8A3FF41CC67C77471 /* UBShareResources.h */,
-				2774DA408FAF3F9DC217426CAB3B64B4 /* UBShareResources.m */,
-				3D07E6EA4C659ADA10B405EE328FDDF5 /* UBShareView.h */,
-				FE6F91016FDFA1D4F942072FFF813D5C /* UBShareViewController.h */,
-				BE5FC93C9424BCE7AB485F87F00CFED0 /* UBShareViewController.m */,
-				64D6CE6152B66C48978979EFC6D74527 /* UBShareViewControllerDelegate.h */,
-				61709E8913207E1C070773FA02F4B402 /* UBWeakQueue.h */,
-				8C526686D27FCA10004A3C64BD59F01C /* UBWeakQueue.m */,
+				95413037CD39C2EB9782990635A8128C /* UBDefaultShareView.xib */,
 			);
-			name = core;
-			sourceTree = "<group>";
-		};
-		94D4EF0388EED1AB2A08B7EDA8E07489 /* DefaultUI */ = {
-			isa = PBXGroup;
-			children = (
-				2DDE5AC9298B9817E7EA7F535FD65BC4 /* UBDefaultShareView.h */,
-				6685C9A09C14FE798C527573D10FDA6A /* UBDefaultShareView.m */,
-				06BC217DE832A2EE0F283A65894ED969 /* UBDefaultShareView.xib */,
-				7D2359ADDB85E77430C3B245305D7090 /* UBShareButton.h */,
-				E1D1B936DF840D4801402843BF8C66B6 /* UBShareButton.m */,
-				32D647E4DD3F1FA7F4F85685744B05AF /* UIView+imageCorner.h */,
-				F2DA3DDA91605914573AEA4DEEA5027D /* UIView+imageCorner.m */,
-			);
-			name = DefaultUI;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		A4957E0E08D40D408117F93F367AB0C7 /* Support Files */ = {
@@ -451,26 +443,24 @@
 			path = "../Target Support Files/Weibo_SDK";
 			sourceTree = "<group>";
 		};
-		ADC1D67DC3E1858813A0DABC4B9A9B29 /* UBShareKit */ = {
-			isa = PBXGroup;
-			children = (
-				429F57DCB1790599A7443785420B8CAB /* UBShareKit.h */,
-				89C0BA240568D76A6581D75D6A9C3681 /* core */,
-				94D4EF0388EED1AB2A08B7EDA8E07489 /* DefaultUI */,
-				1467C352B9D4A063848AA58E77E06FD7 /* kit */,
-				4694DD3DC3C8561420F92EE4AEDFCE3C /* Pod */,
-				17E676BDE0974A52D17852EC65110EFD /* Support Files */,
-			);
-			name = UBShareKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		B04C9798D1EBAC83A3A9DB3528590179 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				F5A952D5D00F3529F36B1DF69248B1A1 /* libWeChatSDK.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B43A1E7A959D2DA6251A6778DD470809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2E4BF061BD29DC36D5E09A52DAB8A0E /* DefaultUI.bundle */,
+				7449F8D3431CD250B86DC8B2416E2720 /* Pods_UBShareKit_Example.framework */,
+				306D3738A125834431B4281845B7906B /* Pods_UBShareKit_Tests.framework */,
+				48A2AC032A96B8E0F54DFFB9E066B1DF /* UBShareActivities.framework */,
+				CA89C073C67AC53AB8E2D8981F9375AD /* UBShareKit.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BB3075B06E77F58179259BDD171E7CBE /* Pods-UBShareKit_Tests */ = {
@@ -511,6 +501,20 @@
 			path = Weibo_SDK;
 			sourceTree = "<group>";
 		};
+		BFD510C616F813C9CA25B2C5A3DB2A56 /* UBShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				C38ADC5582B4F08FBEFD3A087BF0E740 /* UBShareKit.h */,
+				1E81711073E4FE142A4BFAF2B6C60828 /* core */,
+				330E1F3C8D51119A50128A66A39F2D08 /* DefaultUI */,
+				C5895157E6E7118138BC726020159A5F /* kit */,
+				D3367037D258A75F87B24D6B47591625 /* Pod */,
+				059740AF8BA2E48DBBA945A2AEB960A5 /* Support Files */,
+			);
+			name = UBShareKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -535,6 +539,19 @@
 			);
 			name = "Pods-UBShareKit_Example";
 			path = "Target Support Files/Pods-UBShareKit_Example";
+			sourceTree = "<group>";
+		};
+		C5895157E6E7118138BC726020159A5F /* kit */ = {
+			isa = PBXGroup;
+			children = (
+				1D70A6C0A9D6AD3276F1EB0CB1C90C7F /* UBShareActivitiesControl.h */,
+				7CCA0AE631537C2134AE497706354411 /* UBShareActivitiesControl.m */,
+				216E979A2F03494CDB17A426C1E7E01E /* UBShareKitCore.h */,
+				5285E9F46E0FDCFCB29D0E849AE87F71 /* UBShareKitCore.m */,
+				25255655D19F803F26E720F2B94B33A8 /* UBShareModel.h */,
+				CD1C5EEF73F21DA0143F08981BD50638 /* UBShareModel.m */,
+			);
+			name = kit;
 			sourceTree = "<group>";
 		};
 		C6D1DF4DE7783824D36A7BB6CF0BCC99 /* Support Files */ = {
@@ -568,7 +585,7 @@
 				4963A30D5FA778693394203E3905E2F1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				611AB6BB119490D44EEFF7CAC96DD4B7 /* Pods */,
-				45CB8F3ACAB7242D7930410CCE928637 /* Products */,
+				B43A1E7A959D2DA6251A6778DD470809 /* Products */,
 				BF186430999B70546C10B4F0EC2CB918 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -579,6 +596,16 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3367037D258A75F87B24D6B47591625 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D495355540A264162F5B8277A2A7B8A7 /* LICENSE */,
+				16F0A701C9A04C867098A287FBB79083 /* README.md */,
+				97823B04DC91092DC9E7CFE64101778C /* UBShareKit.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		DDA19F4D041BAF5F39AC13A693297563 /* System */ = {
@@ -639,27 +666,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2124E28967D204F1DCB40D0AD3CE28B4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4D37083E64A5B3C89413A90CA1291A6 /* UBDefaultShareView.h in Headers */,
-				942D74FB7D0D49F0CEE88E373C1C4D05 /* UBShareActivitiesControl.h in Headers */,
-				27456EAEE817408B8C286F961C5EED0B /* UBShareButton.h in Headers */,
-				54F1014081A2876E65F2D9E501FC2588 /* UBShareKit-umbrella.h in Headers */,
-				8514725969916DFC39500C1A14256951 /* UBShareKit.h in Headers */,
-				06FC12EEBF10C791C6B9A9838F3AF58C /* UBShareKitCore.h in Headers */,
-				BD756D7AF2C5CD3BEC261C37B63AF25D /* UBShareKitDataGetter.h in Headers */,
-				66445B999C4A1CB97631AB215C1BE2CD /* UBShareModel.h in Headers */,
-				4F398BA25A0760CE993120D0D1D5A181 /* UBShareResources.h in Headers */,
-				7CB3F7BB675B2403C63A0EBEC8056427 /* UBShareView.h in Headers */,
-				8E40388F677D4C032A0FE79A8963F2F0 /* UBShareViewController.h in Headers */,
-				E58B2C68C68B66AF2EE2295F5258F5B3 /* UBShareViewControllerDelegate.h in Headers */,
-				8C8D227FDDF97A49D3DC48B7BBB74854 /* UBWeakQueue.h in Headers */,
-				9DC23287C162C1F02F4E8BDC4286952C /* UIView+imageCorner.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		650CC1EFB27B31C257AE338019F90231 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -692,21 +698,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		88EDFE91F56638B47B45DD4D98AE4795 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396662A03E4BA942B9425BCC12506108 /* UBDefaultShareView.h in Headers */,
+				5D1275069F20C9AFF13582E8E74121EE /* UBShareActivitiesControl.h in Headers */,
+				FCDC04D64D543924CF0C0FBE94C08D2D /* UBShareButton.h in Headers */,
+				2A98281929D1286A81AC3C2C5D445647 /* UBShareKit-umbrella.h in Headers */,
+				B1AC8FFD84F8E25C0286E6CE0348B08A /* UBShareKit.h in Headers */,
+				0E0EE14A72B711CA07F16D023ECB012B /* UBShareKitCore.h in Headers */,
+				3E7FB55A784983F7BE950EFEA3BF2F06 /* UBShareKitDataGetter.h in Headers */,
+				AC29F42B51CF5D00010CFADBCED839BD /* UBShareModel.h in Headers */,
+				8297CE3679556496CE1A3633180EDBC9 /* UBShareResources.h in Headers */,
+				1D5897687BECEBAD617FEEC3BC6092C5 /* UBShareView.h in Headers */,
+				7FA061CF13798ED3E56B74FB384A79C8 /* UBShareViewController.h in Headers */,
+				243AE64DA222AB385668818D8BFC6BD3 /* UBShareViewControllerDelegate.h in Headers */,
+				7DDA5A4397BE9633FA8C6A9CC646DBFA /* UBWeakQueue.h in Headers */,
+				DC65F28B652B3997C9485C47181ADB53 /* UIView+imageCorner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		85675AC83D040C06A6E950E1AA67A9F6 /* UBShareKit */ = {
+		4B39AD9333B545E19F01A52CDB01975C /* UBShareKit-DefaultUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA583C7CA6105A0436B7CB2826440AF9 /* Build configuration list for PBXNativeTarget "UBShareKit" */;
+			buildConfigurationList = 183EEB70DC5ED97A7C9F36865DEF5978 /* Build configuration list for PBXNativeTarget "UBShareKit-DefaultUI" */;
 			buildPhases = (
-				2124E28967D204F1DCB40D0AD3CE28B4 /* Headers */,
-				540A5AE029DC89752137C83D93C91D94 /* Sources */,
-				76DBF839278277FD0259CD024E0CF5C5 /* Frameworks */,
-				F1677EDBC587C7D365565DDAD0592944 /* Resources */,
+				26104DB932C25BEA992796EF836E5EF8 /* Sources */,
+				3B3340CE4193DCA8778F854EACCFEECC /* Frameworks */,
+				DA704EA02D3C8690898B735D76EA475E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "UBShareKit-DefaultUI";
+			productName = "UBShareKit-DefaultUI";
+			productReference = A2E4BF061BD29DC36D5E09A52DAB8A0E /* DefaultUI.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		85675AC83D040C06A6E950E1AA67A9F6 /* UBShareKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4DB4A7FAAA3C659B5EB372475C1BD77 /* Build configuration list for PBXNativeTarget "UBShareKit" */;
+			buildPhases = (
+				88EDFE91F56638B47B45DD4D98AE4795 /* Headers */,
+				4EFEAAB4406B9C8D98379F2889A813AB /* Sources */,
+				5A035E40FF284C15250C65C43DC2F4A0 /* Frameworks */,
+				F98427A11B84FA071E5B161F7AE0E62F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B52868ADEDD13B4ACF63EA0FB4CCF167 /* PBXTargetDependency */,
 			);
 			name = UBShareKit;
 			productName = UBShareKit;
@@ -794,7 +839,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 45CB8F3ACAB7242D7930410CCE928637 /* Products */;
+			productRefGroup = B43A1E7A959D2DA6251A6778DD470809 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -803,6 +848,7 @@
 				EBC7E7FEF369FC688EA671EA0E63713F /* TencentOpenAPI-Unofficial */,
 				D7FA2845141304EB61BD47EC37A2DF99 /* UBShareActivities */,
 				85675AC83D040C06A6E950E1AA67A9F6 /* UBShareKit */,
+				4B39AD9333B545E19F01A52CDB01975C /* UBShareKit-DefaultUI */,
 				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
 				D472C5195936E228AC7F8E400B66E682 /* Weibo_SDK */,
 			);
@@ -824,6 +870,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA704EA02D3C8690898B735D76EA475E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EB78DAFEDE23700382FBF4DF09913D /* UBDefaultShareView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EB7C278C1A47E2BC7D0640ED6E844768 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -831,32 +885,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1677EDBC587C7D365565DDAD0592944 /* Resources */ = {
+		F98427A11B84FA071E5B161F7AE0E62F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A995FC0152D30BD973E07363B433CE3 /* DefaultUI.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		540A5AE029DC89752137C83D93C91D94 /* Sources */ = {
+		26104DB932C25BEA992796EF836E5EF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F246D6DE73243250DC93B9657FD9504F /* UBDefaultShareView.m in Sources */,
-				C7F3633AB91B99B8ACE70C43D213BC63 /* UBDefaultShareView.xib in Sources */,
-				B9D6717BE5290A954053E2DD5BC700A6 /* UBShareActivitiesControl.m in Sources */,
-				5B8098ACC3FE319240E5DA333C243FCF /* UBShareButton.m in Sources */,
-				0AB9FD0B606EC79F1983AAD85D558DF3 /* UBShareKit-dummy.m in Sources */,
-				0D50FE643AB8D80161BBB3EB0F9F3D26 /* UBShareKitCore.m in Sources */,
-				DB3E7FAF0CBDD0CA99817ACCCECEFC05 /* UBShareKitDataGetter.m in Sources */,
-				16D04F18D2379E97D8FD28C121E8274F /* UBShareModel.m in Sources */,
-				C21071078A58911AEADA5BD493724019 /* UBShareResources.m in Sources */,
-				71A2333B7D0AE48941318DD91A3B9DDB /* UBShareViewController.m in Sources */,
-				020B951792F46F37DD0DB071DC29CFBB /* UBWeakQueue.m in Sources */,
-				C20607F0C90A4899B05E227A2B0728F3 /* UIView+imageCorner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFEAAB4406B9C8D98379F2889A813AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB6A19FC8DB012D3463A97FBF3F95E6 /* UBDefaultShareView.m in Sources */,
+				5CA813A0AC9DCDE6F973073D22A5DAAC /* UBShareActivitiesControl.m in Sources */,
+				5A4FA9D0AE2C9531CE3B7D7961E1F235 /* UBShareButton.m in Sources */,
+				689382EA047AC7C8C4F8709BFDECE8F1 /* UBShareKit-dummy.m in Sources */,
+				EE89F228FFAEA370D38D8F0F5E94DA52 /* UBShareKitCore.m in Sources */,
+				8C47AB47EAB35DF1A7A426FD4D93BC9C /* UBShareKitDataGetter.m in Sources */,
+				F7A9F29EBAE0BFB908CAF25817AFFBE8 /* UBShareModel.m in Sources */,
+				C2EC46DC3A39A85AD4E97CE5CD42C3F9 /* UBShareResources.m in Sources */,
+				54AFAB27A73E7376E55709DBEC0C15C1 /* UBShareViewController.m in Sources */,
+				770017F2D0131A80EED525F282CEECF0 /* UBWeakQueue.m in Sources */,
+				2F2D9BB860FA35A262577DD0B5FE2A85 /* UIView+imageCorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -925,6 +986,12 @@
 			target = D7FA2845141304EB61BD47EC37A2DF99 /* UBShareActivities */;
 			targetProxy = 5BDF62113D17B711752955EDA4DCBC83 /* PBXContainerItemProxy */;
 		};
+		B52868ADEDD13B4ACF63EA0FB4CCF167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UBShareKit-DefaultUI";
+			target = 4B39AD9333B545E19F01A52CDB01975C /* UBShareKit-DefaultUI */;
+			targetProxy = B3882F43DBA8A022224AF0B05A1FE165 /* PBXContainerItemProxy */;
+		};
 		BEEA4CEF36EFD5F129C79407B3E2C7AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TencentOpenAPI-Unofficial";
@@ -952,6 +1019,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		195DE56E7B026A94EC2084595B7F8EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC8BDD08E666F0BC1B437A3C5BD09595 /* UBShareKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UBShareKit";
+				INFOPLIST_FILE = "Target Support Files/UBShareKit/ResourceBundle-DefaultUI-UBShareKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = DefaultUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		22BB0A95F43458C5489611402EC4A13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC8BDD08E666F0BC1B437A3C5BD09595 /* UBShareKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UBShareKit";
+				INFOPLIST_FILE = "Target Support Files/UBShareKit/ResourceBundle-DefaultUI-UBShareKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = DefaultUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		2E002B181B09E1E8B09F6AFD32CEF9E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B20DF0A3A902E1F30F67AA04F83AFF85 /* Weibo_SDK.xcconfig */;
@@ -1024,37 +1123,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		49396A05C01BCF781A61DBF1E9BF060F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20C1DE4510FE339812F3CBF8444DB2DD /* UBShareKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UBShareKit/UBShareKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UBShareKit/UBShareKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UBShareKit/UBShareKit.modulemap";
-				PRODUCT_MODULE_NAME = UBShareKit;
-				PRODUCT_NAME = UBShareKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1129,6 +1197,37 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		5B8F02D9A518B09D9E7714EAC2309CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC8BDD08E666F0BC1B437A3C5BD09595 /* UBShareKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UBShareKit/UBShareKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UBShareKit/UBShareKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UBShareKit/UBShareKit.modulemap";
+				PRODUCT_MODULE_NAME = UBShareKit;
+				PRODUCT_NAME = UBShareKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		75029EBC749F92D31FE4FE4356A31469 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1239,9 +1338,9 @@
 			};
 			name = Debug;
 		};
-		843D0289B1A4CCF30927EDC7890ABA5D /* Release */ = {
+		8BE8CF8C079553599FE0C17D937DD686 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20C1DE4510FE339812F3CBF8444DB2DD /* UBShareKit.xcconfig */;
+			baseConfigurationReference = CC8BDD08E666F0BC1B437A3C5BD09595 /* UBShareKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1420,6 +1519,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		183EEB70DC5ED97A7C9F36865DEF5978 /* Build configuration list for PBXNativeTarget "UBShareKit-DefaultUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BB0A95F43458C5489611402EC4A13A /* Debug */,
+				195DE56E7B026A94EC2084595B7F8EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		467D7EA42F61B0620D908C67452749BA /* Build configuration list for PBXNativeTarget "Pods-UBShareKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1474,20 +1582,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA583C7CA6105A0436B7CB2826440AF9 /* Build configuration list for PBXNativeTarget "UBShareKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				49396A05C01BCF781A61DBF1E9BF060F /* Debug */,
-				843D0289B1A4CCF30927EDC7890ABA5D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E182878A6B78D7CE05A24AEA633F087D /* Build configuration list for PBXAggregateTarget "Weibo_SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E002B181B09E1E8B09F6AFD32CEF9E1 /* Debug */,
 				C2E00BB6EC8261E905253EA525103687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4DB4A7FAAA3C659B5EB372475C1BD77 /* Build configuration list for PBXNativeTarget "UBShareKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8F02D9A518B09D9E7714EAC2309CC2 /* Debug */,
+				8BE8CF8C079553599FE0C17D937DD686 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
