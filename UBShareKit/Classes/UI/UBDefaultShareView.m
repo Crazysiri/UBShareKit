@@ -26,6 +26,7 @@
 @property (weak, nonatomic) IBOutlet UIView *appendView;
 @property (weak, nonatomic) IBOutlet UIView *header;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *headerHeightConstraint;
 
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *appendViewHeightConstraint;
 @property (weak, nonatomic) IBOutlet UIView *bgView;
@@ -34,17 +35,39 @@
 
 @implementation UBDefaultShareView
 
+@synthesize leftAndRightCornerRadius = _leftAndRightCornerRadius;
+
 - (void)awakeFromNib {
     [super awakeFromNib];
     self.titleLabel.text = @"分享到";
     _appendView.hidden = YES;
     _appendViewHeightConstraint.constant = 0.0;
-
-    
-    [self.bgView share_setCorner:UIRectCornerTopLeft|UIRectCornerTopRight size:CGSizeMake(10, 10) inRect:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, self.bgView.bounds.size.height)];
-    [self.closeButton share_setCorner:UIRectCornerTopLeft |UIRectCornerTopRight size:CGSizeMake(10, 20) inRect:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, self.closeButton.bounds.size.height)];
     [self.closeButton setTitle:@"取消" forState:UIControlStateNormal];
     
+}
+
+- (BOOL)headerHidden {
+    return self.header.hidden;
+}
+
+- (void)setHeaderHidden:(BOOL)headerHidden {
+    if (headerHidden) {
+        self.headerHeightConstraint.constant = 0;
+    } else {
+        self.headerHeightConstraint.constant = 21;
+    }
+    self.header.hidden = headerHidden;
+}
+
+- (void)setLeftAndRightCornerRadius:(CGFloat)leftAndRightCornerRadius {
+    if (_leftAndRightCornerRadius != leftAndRightCornerRadius) {
+        _leftAndRightCornerRadius = leftAndRightCornerRadius;
+        [self.bgView share_setCorner:UIRectCornerTopLeft|UIRectCornerTopRight size:CGSizeMake(leftAndRightCornerRadius, leftAndRightCornerRadius) inRect:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, self.bgView.bounds.size.height)];
+    }
+}
+
+- (CGFloat)leftAndRightCornerRadius {
+    return _leftAndRightCornerRadius;
 }
 
 
@@ -106,8 +129,8 @@
         UILabel *label = [[UILabel alloc] init];
         label.textAlignment = NSTextAlignmentCenter;
         label.backgroundColor = [UIColor clearColor];
-        label.textColor = HexRGB_ShareManagerView(0x000000);
-        label.font = [UIFont systemFontOfSize:12.0f];
+        label.textColor = HexRGB_ShareManagerView(0x6E717E);
+        label.font = [UIFont systemFontOfSize:15.0f];
         label.text = [UBShareResources getTitle:shareButton.channel];
         [label sizeToFit];
         
@@ -208,8 +231,8 @@ static char AppendViewClickBlockKey;
     
     UILabel *label = [[UILabel alloc] init];
     label.tag = labelTag;
-    label.textColor = HexRGB_ShareManagerView(0x000000);
-    label.font = [UIFont systemFontOfSize:12];
+    label.textColor = HexRGB_ShareManagerView(0x6E717E);
+    label.font = [UIFont systemFontOfSize:15];
     label.text = title;
     [label sizeToFit];
     CGRect labelFrame = label.frame;
