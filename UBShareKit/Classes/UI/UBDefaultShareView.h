@@ -5,9 +5,11 @@
 
 @interface UBDefaultShareView : UIView <UBShareView>
 
+@property (nonatomic,assign) BOOL headerHidden; //是否隐藏标题
+
+@property (nonatomic,assign) CGFloat leftAndRightCornerRadius; //左右圆角 默认 0
 
 #pragma mark - appendview
-
 
 #define AppendHeaderHeight 45.0f
 #define AppendViewHeight 96.0f

@@ -82,7 +82,7 @@
 - (void)setupItemsViewWithButtons:(NSArray *)buttons itemViewWidth:(CGFloat)viewWidth
 {
     CGFloat vSpace = 14.0f;
-    CGFloat leadingSpace = 25.0f;
+    CGFloat leadingSpace = 25.0f; //左右距离
     CGFloat topSpace = 15.0f;
     
     CGFloat   itemWidth    = 50.0f;
@@ -91,8 +91,35 @@
     CGFloat   itemHSpace   = 38.0f; //竖向间距
     
     //一行最多能容纳几个
-    //    NSInteger itemsInLine = (viewWidth - leadingSpace * 2 + vSpace) / (itemWidth + vSpace);
     NSInteger itemsInLine = 4;
+    
+    //重新计算每个之间的间距
+    CGFloat   itemVSpace   = vSpace;
+    
+    NSInteger count = buttons.count > itemsInLine ? itemsInLine : buttons.count; //算间距时按几个算
+
+    switch (buttons.count) {
+        case 1:
+        {
+            count = itemsInLine; //只有一个的时候特殊处理，因为按照下面计算方式count-1就等于0了，所以就按最多计算，一般应该不会有这种情况
+        }
+            break;
+        case 2:
+        {
+            leadingSpace = 78;
+        }
+            break;
+        case 3:
+        {
+            leadingSpace = 45;
+        }
+            break;
+        default:
+            break;
+    }
+    itemVSpace = (viewWidth - itemWidth * count - 2 *leadingSpace)/(count-1);
+
+
     
     //有几行 更新容器高度
     NSInteger linesCount = ((buttons.count/itemsInLine == 0)?1:(buttons.count / itemsInLine)) + (buttons.count <= itemsInLine?0:(buttons.count % itemsInLine?1:0));
@@ -105,17 +132,6 @@
         self.frame = CGRectMake(0, self.superview.frame.size.height - height, self.superview.frame.size.width, height);
     }
     
-    
-    //重新计算每个之间的间距
-    CGFloat   itemVSpace   = vSpace;
-//    if (buttons.count < itemsInLine) {
-//        itemVSpace   = (viewWidth - leadingSpace * 2 - itemWidth * buttons.count) / (buttons.count == 1?2.0:(CGFloat)buttons.count - 1.0);
-//    }
-//    else{
-//        itemVSpace   = (viewWidth - leadingSpace * 2 - itemWidth * itemsInLine) / ((CGFloat)itemsInLine - 1.0);
-//    }
-    itemVSpace   = (viewWidth - leadingSpace * 2 - itemWidth * itemsInLine) / ((CGFloat)itemsInLine - 1.0);
-
     
     for (NSInteger i = 0; i < buttons.count; i++) {
         
