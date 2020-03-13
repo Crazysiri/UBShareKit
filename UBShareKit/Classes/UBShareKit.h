@@ -1,7 +1,19 @@
 #ifndef UBShareKit_h
 #define UBShareKit_h
 
+//kit 分享中间件，一般调用这里的api
 #import "UBShareKitCore.h"
+#import "UBShareActivitiesControl.h"
+#import "UBShareModel.h"
+
+//默认UI 如果需要可以 尊守 UBShareView 协议自定义UI
+#import "UBDefaultShareView.h"
+#import "UBShareButton.h"
+
+//core 分享组件核心
+#import "UBShareViewController.h" //控制器
+#import "UBShareKitDataGetter.h"//数据源获取
+#import "UBShareResources.h" //分享渠道及资源（icon）注册
 
 #endif /* UBShareKit_h */
 

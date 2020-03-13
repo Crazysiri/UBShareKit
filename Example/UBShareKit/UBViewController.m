@@ -14,23 +14,17 @@
 
 @interface UBViewController ()
 
-@property (nonatomic,strong) UBShareKit *kit;
-
 @end
 
 @implementation UBViewController
 
 - (void)viewDidLoad
 {
-    UIActivityViewController *a;
-//    self.view.backgroundColor = [UIColor darkGrayColor];
     [super viewDidLoad];
     
     Getter *getter = [[Getter alloc] init];
 
     UBShareKit *kit = [UBShareKit kitWithGetter:getter];
-    self.kit = kit;
-    
     [kit show];
 	// Do any additional setup after loading the view, typically from a nib.
 }
